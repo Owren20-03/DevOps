@@ -33,7 +33,7 @@ jobs:
         shell: bash
         
       # 4. Verifica se a palavra "Versão" está no código
-      - name: Check for "Versão" keyword
+      - name: Check for "Versão 1.0.0" keyword
         id: check_version
         run: |
           # Define o caminho completo do arquivo a ser verificado
